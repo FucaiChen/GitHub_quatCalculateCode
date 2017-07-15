@@ -1,0 +1,40 @@
+﻿生成启动时间为 2017/7/15 23:40:56。
+     1>项目“D:\software\VS_project\quaternionCal\quaternion\quaternion\quaternion.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\quaternion.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\quaternion.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt quaternionCal.cpp quaternionProject.cpp
+         quaternionCal.cpp
+     1>d:\software\vs_project\quaternioncal\quaternion\quaternion\quaternioncal.cpp(1): warning C4627: “#include "quaternionCal.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“StdAfx.h”或重新生成预编译头
+     1>d:\software\vs_project\quaternioncal\quaternion\quaternion\quaternioncal.cpp(11): warning C4172: 返回局部变量或临时变量的地址
+     1>d:\software\vs_project\quaternioncal\quaternion\quaternion\quaternioncal.cpp(21): warning C4172: 返回局部变量或临时变量的地址
+     1>d:\software\vs_project\quaternioncal\quaternion\quaternion\quaternioncal.cpp(31): warning C4172: 返回局部变量或临时变量的地址
+     1>d:\software\vs_project\quaternioncal\quaternion\quaternion\quaternioncal.cpp(42): warning C4172: 返回局部变量或临时变量的地址
+         正在生成代码...
+     1>d:\software\vs_project\quaternioncal\quaternion\quaternion\quaternioncal.cpp(37): warning C4700: 使用了未初始化的局部变量“Qresult”
+         正在编译...
+         quaternionProject.cpp
+         正在生成代码...
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\software\VS_project\quaternionCal\quaternion\Debug\quaternion.exe" /INCREMENTAL /NOLOGO opencv_ts300d.lib opencv_world300d.lib opencv_ts300.lib opencv_world300.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\quaternion.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\software\VS_project\quaternionCal\quaternion\Debug\quaternion.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\software\VS_project\quaternionCal\quaternion\Debug\quaternion.lib" /MACHINE:X86 Debug\quaternion.exe.embed.manifest.res
+         Debug\quaternionProject.obj
+         Debug\quaternionCal.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\quaternion.exe.embed.manifest" /manifest Debug\quaternion.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         quaternion.vcxproj -> D:\software\VS_project\quaternionCal\quaternion\Debug\quaternion.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\quaternion.unsuccessfulbuild”。
+         正在对“Debug\quaternion.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\software\VS_project\quaternionCal\quaternion\quaternion\quaternion.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.16
