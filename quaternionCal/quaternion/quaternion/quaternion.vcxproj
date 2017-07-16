@@ -75,11 +75,13 @@
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="quaternion.h" />
     <ClInclude Include="quaternionCal.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="quaternion.cpp" />
     <ClCompile Include="quaternionProject.cpp" />
     <ClCompile Include="quaternionCal.cpp" />
     <ClCompile Include="stdafx.cpp">
